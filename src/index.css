@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --alert-error-color: hsla(6, 78%, 57%, 0.85);
+  --alert-warning-color: hsla(37, 90%, 51%, 0.85);
+  --alert-success-color: hsla(145, 64%, 41%, 0.85);
+  --alert-info-color:  hsla(204, 70%, 53%, 0.85);
+  --bg-color: #25252c;
+  --accent-color: #7fffbf;
+  --primary-color: #181a1e;
+}
+
+#alert-container {
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  top: 75px;
+  right: 10px;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@keyframes slide-in {
+  from {
+      opacity: 0;
+      transform: translateX(+30px);
+  }
+
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes slide-out {
+  from {
+      opacity: 1;
+      transform: translateX(0);
+  }
+
+  to {
+      opacity: 0;
+      transform: translateX(+30px);
+  }
+}

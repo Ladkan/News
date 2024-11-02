@@ -1,0 +1,41 @@
+.container{
+    max-width: 976px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+    transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid var(--accent-color);
+    background-color: var(--primary-color);
+    padding: 1rem;
+    width: 50%;
+    justify-content: center;
+}
+
+.form h1{
+    text-align: center;
+    padding: .5rem;
+}
+
+.form input{
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    padding: .5rem;
+    margin: 1rem;
+    background-color: var(--bg-color);
+    color: white;
+}
+
+.form label{
+    font-weight: 500;
+}

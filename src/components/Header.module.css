@@ -14,7 +14,7 @@ html{
 }
 
 .header{
-    background-color: #181a1e;
+    background-color: var(--primary-color);
     width: 100vw;
 }
 
@@ -33,7 +33,7 @@ html{
     left: 0;
     top: 57px;
     border-radius: 50%;
-    box-shadow: -20px -20px 0 #181a1e;
+    box-shadow: -20px -20px 0 var(--primary-color);
 }
 
 .header::after{
@@ -44,7 +44,7 @@ html{
     right: 0;
     top: 57px;
     border-radius: 50%;
-    box-shadow: 20px -20px 0 #181a1e;
+    box-shadow: 20px -20px 0 var(--primary-color);
 }
 
 a{
